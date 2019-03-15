@@ -27,8 +27,7 @@ $list-border-color: #8E9193;
 	position: absolute;
 	max-height: 250px;
 	overflow: auto;
-	max-width: 220px;
-	min-width: 170px;
+	width: 220px;
 	left: 0;
 	top: 100%;
 	border: 2px solid $list-border-color;
@@ -43,8 +42,8 @@ $list-border-color: #8E9193;
 	// color: black;
 	position: relative;
 	padding-left: 30px;
-	height: 35px;
-	line-height: 35px;
+	padding-top: 6px;
+        padding-bottom: 6px;
 	font-size: 14px;
 	text-align: left;
 	&:nth-child(odd){
@@ -86,7 +85,6 @@ $list-border-color: #8E9193;
 }
 
 .filter-label{
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     position: relative;
